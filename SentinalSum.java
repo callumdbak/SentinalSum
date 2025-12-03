@@ -7,7 +7,7 @@ public class SentinalSum {
     }
 
     public static void calculateSum() {
-        Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
         int sum = 0;
         int number;
 
@@ -23,15 +23,15 @@ public class SentinalSum {
      while (number != -1) {
          sum += number;
             
-         System.out.print("Enter number: ");
+      System.out.print("Enter number: ");
          if (scanner.hasNextInt()) {
-                number = scanner.nextInt();
-         } else {
-             System.out.println("error");
-                number = -1; 
+          number = scanner.nextInt();
+      } else {
+          System.out.println("error");
+          number = -1; 
      }
      }
 
-        System.out.println("the sum is " + sum);
+     System.out.println("the sum is " + sum);
     }
 }
