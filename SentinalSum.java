@@ -16,7 +16,6 @@ public class SentinalSum {
         if (scanner.hasNextInt()) {
             number = scanner.nextInt();
         } else {
-            System.out.print("Invalid input Sum is 0");
             return;
         }
 
